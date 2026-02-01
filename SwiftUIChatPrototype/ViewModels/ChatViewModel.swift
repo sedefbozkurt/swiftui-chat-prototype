@@ -37,7 +37,7 @@ final class ChatViewModel: ObservableObject {
                 id:UUID() ,
                 text: "Knock, knock!",
                 isFromCurrentUser: false,
-                timestamp: Date().addingTimeInterval(-240)
+                timestamp: Date().addingTimeInterval(-300)
             ),
             Message(
                 id: UUID(),
